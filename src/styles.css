@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, lightblue, pink, orange);
+}
+
+.Title {
+  height: 30px;
+  width: 250px;
+  margin: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.Description {
+  height: 30px;
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.Date {
+  height: 30px;
+  width: 250px;
+  margin: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.button {
+  height: 30px;
+  background-color: light-blue;
+  width: 100px;
+}
+
+.taskContainer {
+  margin-top: 20px;
+  border: 1px solid;
+  height: 200px;
+  width: 500px;
+  margin-left: 150px;
+  border-radius: 10px;
+}
